@@ -7,7 +7,7 @@ use Mix.Config
 # Run `mix help test` for more information.
 config :events, Events.Repo,
   username: "root",
-  password: "",
+  password: "rootw",
   database: "events_test#{System.get_env("MIX_TEST_PARTITION")}",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
